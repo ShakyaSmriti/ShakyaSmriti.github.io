@@ -1,5 +1,5 @@
-import { FileDown } from 'lucide-react'
-import Reveal from './Reveal.jsx'
+import { FileDown } from "lucide-react";
+import Reveal from "./Reveal.jsx";
 
 export default function ResumeCTA() {
   return (
@@ -11,11 +11,13 @@ export default function ResumeCTA() {
               Want the full picture?
             </h2>
             <p className="text-ink/60 dark:text-paper/60 mt-2 max-w-md">
-              Download my resume to see my experience, skills, and QA journey in detail.
+              Download my resume to see my experience, skills, and QA journey in
+              detail.
             </p>
           </div>
+
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             className="inline-flex items-center gap-2 rounded-full bg-ink dark:bg-paper text-paper dark:text-ink font-medium px-6 py-3 hover:opacity-90 transition-opacity shrink-0"
           >
@@ -25,5 +27,5 @@ export default function ResumeCTA() {
         </Reveal>
       </div>
     </section>
-  )
+  );
 }
