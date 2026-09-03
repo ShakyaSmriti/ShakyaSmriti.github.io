@@ -17,7 +17,7 @@ export default function ResumeCTA() {
           </div>
 
           <a
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
+            href={`${import.meta.env.BASE_URL}SMRITI_SHAKYA_CV.pdf`}
             download
             className="inline-flex items-center gap-2 rounded-full bg-ink dark:bg-paper text-paper dark:text-ink font-medium px-6 py-3 hover:opacity-90 transition-opacity shrink-0"
           >
